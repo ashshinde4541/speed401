@@ -1,0 +1,144 @@
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+            aria-label="Toggle navigation">
+            
+            
+        </button><div class="col-1 logo-speed400">
+            <h3> SPEED 400</h3> 
+        </div>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent1">
+
+        
+        
+        <div class="col-5 details-part">
+            <ul>
+                <div class="libox"><li>OVERVIEW </li></div>
+                <div class="libox"><li>MODEL </li></div>
+                <div class="libox"> <li>SPECIFICATION </li></div>
+                    <div class="libox"> <li>REASONS TO RIDE</li></div>
+                        <div class="libox"> <li>ACCESSORIES
+                </li></div>
+            </ul>
+        </div>
+        <div class="col-3 emptypart">3</div>
+        <div class="col-3 end-part">4</div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- extra code  -->
+
+
+<!-- css
+
+.box-corosal {
+    height: 1000px;
+    background-color: #ca737387;
+    padding-top: 190px;
+
+}
+
+
+
+.carousel-item{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+    box-shadow: 0px 0px 1000px 60px black inset !important;
+    /* background-image: url(/midia/speed-400-my24-family-timeline-1-revised-1920x780.jpg); */
+    .c1{
+        background-size: cover;
+        background-position: 100%;
+        
+        background-position-x:70% ;
+       
+   
+   
+
+}} -->
+
+<div class="container-fluid">
+
+    <div class="box-corosal">
+        <div id="carouselExampleCaptions" class="carousel slide">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active bagound1 c1">
+                    <!-- <img src="/midia/speed-400-my24-family-timeline-1-revised-1920x780.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption info-box ">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c1">
+                    <div class="carousel-caption info-box ">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+
+                    <!-- <img src="/midia/speed-400-my24-family-timeline-2-1920x780.jpg" class="d-block w-100" alt="..."> -->
+
+                </div>
+                <div class="carousel-item c1">
+                    <!-- <img src="/midia/speed-400-my24-family-timeline-3-1920x780.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="col-6 bg-info info-box p-5 ">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c1">
+                    <!-- <img src="/midia/speed-400-my24-family-timeline-4-1920x780.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption info-box ">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c1">
+                    <!-- <img src="/midia/speed-400-my24-family-timeline-5-1920x780.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption info-box ">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+<script>
+
+    const arr = [
+        "/midia/speed-400-my24-family-timeline-1-revised-1920x780.jpg",
+        "/midia/speed-400-my24-family-timeline-5-1920x780.jpg",
+       " /midia/speed-400-my24-family-timeline-4-1920x780.jpg",
+       "/midia/speed-400-my24-family-timeline-3-768x352.jpg",
+       "/midia/speed-400-my24-family-timeline-2-1920x780.jpg"
+    ]
+
+
+
+    const arr_carou = document.getElementsByClassName("c1");
+    console.log(arr_carou);
+
+
+
+
+    for(let i =0 ; i<arr_carou.length ;i++){
+        arr_carou[i].style.backgroundImage=`url(${arr[i]})`;
+    }
+
+
+
+
+ </script>
